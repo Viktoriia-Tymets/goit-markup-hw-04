@@ -106,11 +106,15 @@ margin-left: auto;
 }
 
 
-.contacts.a:hover,
-.contacts.a:focus{
+.menu-nav:hover,
+.menu-nav:focus{
 color: #404bbf;
 }
 
+.contacts:hover,
+.contacts:focus{
+color: #404bbf;
+}
 
 .address{
     font-style: normal;
