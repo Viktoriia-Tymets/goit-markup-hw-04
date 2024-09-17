@@ -185,6 +185,19 @@ border-radius: 4px;
     width: calc((100% - 72px) / 4);
 }
 
+.benefits-icon{
+margin: 24px 100px;
+
+}
+
+.box-icon{
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+}
+
 .benefits-title{
 font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -242,7 +255,8 @@ width: calc((100%-72px)/4);
 .team-card{
 gap: 24px;
 display:flex;
-padding-bottom: 120px;
+
+
 
 }
 
@@ -250,7 +264,8 @@ padding-bottom: 120px;
 padding: 32px 0;
 border-radius: 0 0 4px 4px;
 text-align: center;
-
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 
 }
 
@@ -277,6 +292,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
 }
+
+.team-social-media{
+    display:inline-block;
+    fill: #4d5ae5;
+}
+
+
 
 .works{
     padding: 120px 0 120px 0;
@@ -305,6 +327,9 @@ align-items: center;
 width: calc((100% - 48px) / 3);
 }
 
+.list:hover{
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.14);
+}
 
 
 .descr{
@@ -363,11 +388,30 @@ margin-bottom: 16px;
     letter-spacing: 0.02em;
     color:#F4F4FD;
     max-width: 264px;
+    
+   
 
 }
 
+.icons-text{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff; 
+        text-align: center;
+        display:block;
+        
 
+     
+}
 
+.media-icons{
+    max-width: 208px;
+fill: #4d5ae5;
+display:inline-block;
+}
 
 
 
