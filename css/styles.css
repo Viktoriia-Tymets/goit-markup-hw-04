@@ -210,7 +210,7 @@ margin: 24px 100px;
         align-items: center;
         justify-content: center;
         margin-bottom: 8px;
-        
+
 }
 
 .benefits-title{
@@ -288,6 +288,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     display: block;
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-names{
@@ -422,12 +425,12 @@ margin-bottom: 16px;
      
 }
 
-.media-icons{
-    max-width: 208px;
-fill: #4d5ae5;
-display:inline-block;
-}
+.footer-page{
+    display: flex;
+    align-items: baseline;
+    
 
+}
 
 
 
