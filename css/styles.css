@@ -84,26 +84,6 @@ h1,h2,h3,h4,h5,h6,p{
 
 }
 
-.nav-studio{
-    color: #404bbf;
-    position: relative;
-    
-
-}
-
-.nav-studio::after{
-content: '';
-width: 100%;
-position: absolute;
-left: 0;
-bottom: -1px;
-height: 4px;
-background-color: #404bbf;
-border-radius: 2px;
-
-
-
-}
 
 .address{
 font-style: normal;
@@ -155,6 +135,7 @@ max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+
 
 }
 
@@ -225,6 +206,11 @@ margin: 24px 100px;
         width: 264px;
         height: 112px;
         background: #f4f4fd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+        
 }
 
 .benefits-title{
