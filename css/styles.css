@@ -332,11 +332,13 @@ height: 40px;
 
 }
 
-.icons-for-team:hover,
-.icons-for-team:focus{
+.icons-for-team:hover{
     background-color: #404bbf;
 }
 
+.icons-for-team:focus{
+    background-color: #404bbf;
+}
 
 .social-media-team{
     fill:#f4f4fd;
