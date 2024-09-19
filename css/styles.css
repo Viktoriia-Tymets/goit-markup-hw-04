@@ -329,8 +329,14 @@ height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
+
+.icons-for-team:hover,
+.icons-for-team:focus{
+    background-color: #404bbf;
+}
+
 
 .works{
     padding: 120px 0 120px 0;
