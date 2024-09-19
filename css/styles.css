@@ -315,6 +315,7 @@ color:#434455;
 display: flex;
 justify-content: center;
 gap: 24px;
+margin: top 8px;
 }
 
 .media-list{
