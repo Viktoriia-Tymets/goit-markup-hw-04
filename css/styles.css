@@ -45,7 +45,9 @@ h1,h2,h3,h4,h5,h6,p{
 .header-logo{
     padding: 24px 0;
     margin-right: 76px;
-    
+      position: relative;
+        color: #404bbf;
+        transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav{
     display: flex;
@@ -59,7 +61,21 @@ h1,h2,h3,h4,h5,h6,p{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-    
+}
+
+*::after{
+color: #404bbf;
+content: '';
+width: 100%;
+position: absolute;
+left: 0;
+bottom: -1px;
+height: 4px;
+background-color: #404bbf;
+border-radius: 2px;
+
+
+
 }
 
 .logo-1{
@@ -95,6 +111,7 @@ margin-left: auto;
     display: flex;
     align-items: center;
     gap: 40px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -107,7 +124,8 @@ margin-left: auto;
         color: #434455;
         font-style: normal;
         display: block;
-        padding: 24px 0;     
+        padding: 24px 0;  
+    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -133,7 +151,7 @@ color: #404bbf;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
 max-width: 1440px;
 background-repeat: no-repeat;
-background-position: center;
+background-position:center;
 background-size: cover;
 
 
@@ -209,7 +227,7 @@ margin: 24px 100px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 8px;
+      
 
 }
 
@@ -332,6 +350,7 @@ margin-top: 8px;
     justify-content: center;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background-color:#4d5ae5;
+margin-bottom: 8px;
 }
 
 .icons-for-team:hover{
