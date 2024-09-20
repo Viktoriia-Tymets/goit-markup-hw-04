@@ -45,13 +45,13 @@ h1,h2,h3,h4,h5,h6,p{
 .header-logo{
     padding: 24px 0;
     margin-right: 76px;
-      position: relative;
-        color: #404bbf;
         transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav{
     display: flex;
     align-items: center;
+    position: relative;
+        color: #404bbf;
 }
 .logo-top{
     font-family: "Raleway", sans-serif;
@@ -423,10 +423,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.list:hover.overlay{
-    transform:translateY(0%);
 
-}
 
 
 .descr{
