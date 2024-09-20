@@ -50,8 +50,6 @@ h1,h2,h3,h4,h5,h6,p{
 .header-nav{
     display: flex;
     align-items: center;
-    position: relative;
-        color: #404bbf;
 }
 .logo-top{
     font-family: "Raleway", sans-serif;
@@ -63,7 +61,7 @@ h1,h2,h3,h4,h5,h6,p{
         color: #4d5ae5;
 }
 
-*::after{
+.menu-nav-studio::after{
 color: #404bbf;
 content: '';
 width: 100%;
