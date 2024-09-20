@@ -89,7 +89,7 @@ position: relative;
 }
 
 
-.menu-nav::after{
+.menu-nav.current::after{
 content: '';
 width: 100%;
 height: 4px;
