@@ -331,6 +331,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
+margin-bottom: 8px;
 }
 
 .team-list{
@@ -342,7 +343,7 @@ gap: 24px;
 .media-list{
 width: 40px;
 height: 40px;
-margin-top: 8px;
+
 }
 
 .icons-for-team{
@@ -354,7 +355,7 @@ margin-top: 8px;
     justify-content: center;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background-color:#4d5ae5;
-margin-bottom: 8px;
+
 }
 
 .icons-for-team:hover{
