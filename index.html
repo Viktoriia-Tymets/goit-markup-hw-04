@@ -49,7 +49,7 @@
         <div class="container">
 <h1 class="main-page-text">Effective Solutions
 for Your Business</h1>
-<button type="button" class="main-page-btn">Order Service</button>
+<button type="button" class="main-page-btn" data-modal-open >Order Service</button>
 </div> 
 </section>
 
@@ -391,32 +391,63 @@ Subscribe
 
 
 
-<div class="backdrop is-open"></div>
+<div class="backdrop is-open" data-modal></div>
 <div class="modal">
-
-
-    
+<button class="modal-close-btn" type="button" data-modal-close>
+    <svg class="modal-close-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-close"></use>
+    </svg>
+</button>
 <p class="modal-text">Leave your contacts and we will call you back</p>
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<form>
+<div class="modal-form-name-wrapper">
+<label class="modal-form-name-label" for="user-name">Name</label>
+<div class="modal-form-name-input">
+    <input
+     class="modal-form-name"
+      id="user-name"
+       type="text"
+        name="name"
+         required/>
+    <svg width="18" height="18">
+        <use href="./images/icons.svg#icon-person">
+        </use>
+    </svg>
+</div>
 </div>
 
+<div class="modal-form-phone-wrapper">
+<label class="modal-form-phone-label" for="user-phone">Phone</label>
+<div class="modal-form-phone-input">
+<input
+class="modal-form-phone"
+id="user-phone"
+type="tel"/>
+<svg width="18" height="18">
+<use href="./images/icons.svg#icon-phone">
+</use>
+</svg>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
