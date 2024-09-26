@@ -377,11 +377,10 @@ for Your Business</h1>
 
 <button class="btn-subscribe" type="submit">
 Subscribe
-<a href="" class="icon-subscribe-footer"><svg class="icon-send" width="24" height="24">
+<svg class="icon-send" width="24" height="24">
     <use href="./images/icons.svg#icon-send">
     </use>
 </svg>
-</a>
 </button>
 </form>
 </div>
@@ -391,7 +390,7 @@ Subscribe
 
 
 
-<div class="backdrop is-open" data-modal></div>
+<div class="backdrop is-open" data-modal>
 <div class="modal">
 <button class="modal-close-btn" type="button" data-modal-close>
     <svg class="modal-close-icon" width="24" height="24">
@@ -401,7 +400,7 @@ Subscribe
 <p class="modal-text">Leave your contacts and we will call you back</p>
     
 
-<form>
+<form class="modal-form">
 <div class="modal-form-name-wrapper">
 <label class="modal-form-name-label" for="user-name">Name</label>
 <div class="modal-form-name-input">
@@ -411,7 +410,7 @@ Subscribe
        type="text"
         name="name"
          required/>
-    <svg width="18" height="18">
+    <svg class="modal-icon-person" width="18" height="18">
         <use href="./images/icons.svg#icon-person">
         </use>
     </svg>
@@ -432,20 +431,54 @@ type="tel"/>
 </div>
 </div>
 
+<div class="modal-form-email-wrapper">
+    <label class="modal-form-email-label" for="user-email">Email</label>
+    <div class="modal-form-email-input">
+        <input class="modal-form-email" id="user-email" type="email"/>
+        <svg width="18" height="18">
+            <use href="./images/icons.svg#icon-email">
+            </use>
+        </svg>
+    </div>
+</div>
 
+<div class="modal-form-comment-wrapper">
+    <label class="modal-form-comment-label" for="user-comment">
+        Comment
+    </label>
+    <textarea
+     class="modal-form-comment" 
+     name="user-comment" 
+     id="user-comment" 
+     placeholder="Text input"
+        required>
+    </textarea>
+</div>
 
+ 
+<div class="modal-form-checkbox-wrapper">
+    <input class="modal-form-checkbox visually-hidden"
+     id="privacy-policy"
+      type="checkbox"
+       name="privacy-policy"
+        value="true"
+         required />
 
-
-
-
-
-
-
-
-
-
-
+<label class="modal-form-checkbox-label" for="privacy-policy">
+    <span class="modal-form-customer-checkbox">
+        <svg class="modal-form-checkbox-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-click"></use>
+        </svg>
+    </span>
+    I accept the terms and conditions of the
+    <a class="modal-form-policy-link accent-color" href="">
+        Privacy Policy
+    </a>
+</label>
+</div>
+<button class="modal-form-submit-btn" type="submit">Send</button>
 </form>
+</div>
 </div>
 <script src="./js/modal.js"></script>
 </body>
